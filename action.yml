@@ -1,0 +1,10 @@
+name: November Actions
+description: Hi all
+
+runs:
+  using: "composite"
+  steps:
+  - run: echo "Hello world"
+    shell: bash
+  -run: echo "This is a comanda inside an Action Composote"
+    shell: bash
